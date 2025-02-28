@@ -23,15 +23,15 @@ Permite a profesores, tutores y administradores gestionar alumnos, empresas y co
 
 ## 🛠️ Tecnologías utilizadas
 
-| Tecnología | Descripción                                                     |
-| ---------- | --------------------------------------------------------------- |
-|            | Lenguaje principal del frontend                                 |
-|            | Entorno de ejecución del backend                                |
-|            | Framework para el backend                                       |
-|            | Base de datos relacional                                        |
-|            | Framework CSS para diseño responsive                            |
-|            | Cliente HTTP para solicitudes API                               |
-|            | Herramienta de desarrollo para reinicio automático del servidor |
+| Tecnología  | Descripción                                                    |
+|------------|----------------------------------------------------------------|
+| **JavaScript** | Lenguaje principal del frontend.                            |
+| **Node.js**   | Entorno de ejecución del backend.                            |
+| **Express.js** | Framework para el backend.                                  |
+| **MySQL2**    | Base de datos relacional.                                   |
+| **Bootstrap** | Framework CSS para diseño responsive.                        |
+| **Axios**     | Cliente HTTP para solicitudes API.                          |
+| **Nodemon**   | Herramienta de desarrollo para reinicio automático del servidor. |
 
 ---
 
@@ -52,13 +52,13 @@ cd fct
 
 ```bash
 cd Servidor
-npm install cors mysql2 express
-npm install nodemon --save-dev
+npm install
 ```
+
 ### 4️⃣ **Iniciar el servidor**
 
 ```bash
-npm run nodemon index.js
+npm start
 ```
 
 ### 5️⃣ **Ejecutar la aplicación**
@@ -85,4 +85,5 @@ npm run nodemon index.js
 ---
 
 👨‍💻 **Desarrollado por Roy Durán**
+
 
