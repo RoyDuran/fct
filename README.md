@@ -52,13 +52,14 @@ cd fct
 
 ```bash
 cd Servidor
-npm install
+npm install cors mysql2 express
+npm install nodemon --save-dev
 ```
 
 ### 4️⃣ **Iniciar el servidor**
 
 ```bash
-npm start
+npm run nodemon index.js 
 ```
 
 ### 5️⃣ **Ejecutar la aplicación**
